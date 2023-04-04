@@ -6,7 +6,7 @@ Question driven development is a software development methodology that focuses o
  
 ![image](https://user-images.githubusercontent.com/53965169/229686566-66f5ff1b-35fb-45eb-aa55-e9eaee7f8675.png)
 
-
+# Onrender for the server side 
 ![image](https://user-images.githubusercontent.com/53965169/229687359-50afc707-a7e3-4ff6-8963-801a7f78616e.png)
 ``` javascript 
 /*
@@ -23,5 +23,5 @@ contains a key-value pair, with the key being 'prompt' and the value being the d
         })
     })
 ```
-
+# Vercel for the front end  
 ![image](https://user-images.githubusercontent.com/53965169/229688250-5d41388a-af81-48c9-a190-3602046b0c11.png)
