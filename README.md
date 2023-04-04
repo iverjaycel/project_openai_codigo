@@ -8,7 +8,11 @@ Question driven development is a software development methodology that focuses o
 
 
 ![image](https://user-images.githubusercontent.com/53965169/229687359-50afc707-a7e3-4ff6-8963-801a7f78616e.png)
-``` javascript
+```
+/*
+making a POST request to the URL 'https://codigo.onrender.com/' with a body containing a JSON object. The JSON object
+contains a key-value pair, with the key being 'prompt' and the value being the data from the 'data' variable
+*/
     const response = await fetch('https://codigo.onrender.com/', {
         method: 'POST',
         headers: {
@@ -18,5 +22,4 @@ Question driven development is a software development methodology that focuses o
             prompt: data.get('prompt')
         })
     })
-/* 
-```
+/* ```
