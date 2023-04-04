@@ -8,7 +8,8 @@ Question driven development is a software development methodology that focuses o
 
 
 ![image](https://user-images.githubusercontent.com/53965169/229687359-50afc707-a7e3-4ff6-8963-801a7f78616e.png)
-```
+``` javasript 
+
 /*
 making a POST request to the URL 'https://codigo.onrender.com/' with a body containing a JSON object. The JSON object
 contains a key-value pair, with the key being 'prompt' and the value being the data from the 'data' variable
@@ -22,4 +23,4 @@ contains a key-value pair, with the key being 'prompt' and the value being the d
             prompt: data.get('prompt')
         })
     })
-/* ```
+```
