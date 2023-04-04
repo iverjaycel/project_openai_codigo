@@ -7,19 +7,27 @@ const chatContainer = document.querySelector('#chat_container')
 let loadInterval
 
 function loader(element) {
+    //Clear the Text content property of element to an empty string
+    //Clear before mag loading 
     element.textContent = ''
-
+    // etInterval() method. This method is used to call a function
+    // repeatedly at a specified interval, in this case, every 300 milliseconds.
+    // Iya E Update ang textContent property of the Element 
     loadInterval = setInterval(() => {
         // Update the text content of the loading indicator
+        // Updates the text content of the property "element"
         element.textContent += '.';
 
         // If the loading indicator has reached three dots, reset it
+        // If the loading indicator has reached three periods,
+        // The textContent property of the element is reset to an empty string, 
+        // which restarts the loading indicator cycle.
         if (element.textContent === '....') {
             element.textContent = '';
         }
-    }, 300);
+    }, 300); //Mili seconds
 }
-
+// 
 function typeText(element, text) {
     let index = 0
 
