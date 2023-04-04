@@ -1,5 +1,6 @@
 #Openai_codigo
-Openai Codigo is an AI used to help students and developers QDD "Question Driven Development" 
+
+Openai Codigo is an AI used to help students and developers in QDD "Question Driven Development" 
 
 Question-driven development is a technique I use to manage context-switching and getting "unstuck" in software development tasks.
 
