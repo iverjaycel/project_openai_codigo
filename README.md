@@ -1,4 +1,4 @@
-#Openai_codigo
+# Openai_codigo
 
 Openai Codigo is an AI used to help students and developers in QDD "Question Driven Development" 
 
