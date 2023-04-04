@@ -6,3 +6,16 @@ Question driven development is a software development methodology that focuses o
  
 ![image](https://user-images.githubusercontent.com/53965169/229686566-66f5ff1b-35fb-45eb-aa55-e9eaee7f8675.png)
 
+
+![image](https://user-images.githubusercontent.com/53965169/229687359-50afc707-a7e3-4ff6-8963-801a7f78616e.png)
+```
+    const response = await fetch('https://codigo.onrender.com/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            prompt: data.get('prompt')
+        })
+    })
+/* ```
